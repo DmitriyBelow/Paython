@@ -5,29 +5,29 @@ from colorama import Fore, Back, Style
 
 print(Fore.RED)
 do = input(" действие: ")
- 
- # арифметические действия
 
+# арифметические действия
+# сложение
 def plus(a, b):
     c = a + b
     print(c)
-
+# вычитание
 def minus(a, b):
     c = a - b
     print(c)
-
+# умножение
 def mult(a, b):
     c = a * b
     print(c)
-
+# деление
 def div(a, b):
     c = a / b 
     print(c)
-
+# степень числа
 def degree(a,b):
     c = a ** b
     print(c)
-
+# анализатор арифметического действия
 if do == "pi":
     print(Fore.YELLOW)
     print(math.pi)
